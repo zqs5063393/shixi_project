@@ -1,3 +1,6 @@
+%该模块已在分支denghaoyuan_branch1中进行了修改，并已合并到主分支denghaoyuanV1，修改时间为2023-12-22
+
+
 %计算GF域内两个码字的码距子程序：
 function ret = gf_dis(a,b)
 ret = 0;
