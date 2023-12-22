@@ -1,4 +1,7 @@
-%计算GF域内每个码元与“0”码字的码距，并映射在成实数子程序：
+
+%该模块已在分支huangweifeng branchu1进行修改，并以合并到主分支huangweifengV1，
+
+计算GF域内每个码元与“0”码字的码距，并映射在成实数子程序：
 function distance = gf2num(gf_a)
 distance = -1;
 if (gf_a == gf(0,3)) distance = 0; end
